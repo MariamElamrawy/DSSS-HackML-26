@@ -1,0 +1,14 @@
+# Competition data: download from Kaggle, don't redistribute
+Data/
+
+# Trained models are large and rebuildable from src/
+*.pkl
+
+# Generated outputs
+submission.csv
+catboost_info/
+
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
